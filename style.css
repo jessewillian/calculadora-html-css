@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main-content {
+    background-image: linear-gradient(90deg, #8a2be2, #7fffd483, #7fffd483, #8a2be2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box-calculator {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    align-content: end;
+    justify-content: space-between;
+    width: 322px;
+    height: 517px;
+    background-color: #c5bebe;
+    border: 1px solid #000;
+    box-shadow: 5px 5px 30px #808080, -5px -5px 30px #808080;
+}
+
+.box-calculator .calculador-buttons {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: center;
+}
+
+.box-calculator .number-calc {
+    height: 60px;
+    width: 300px;
+    font-size: 45px;
+    text-align: right;
+    margin-bottom: 15px;
+    margin-left: 2%;
+    background-color: #c5bebe;
+    border: transparent;
+    color: #000;
+}
+
+.box-calculator .number-resul {
+    text-align: right;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 5px;
+    margin-left: 2%;
+    background-color: #c5bebe;
+    border: transparent;
+    color: #000;
+    font-size: 17px;
+}
+
+.button-box {
+    width: 80px;
+    height: 51px;
+    border: 2px solid #c5bebe;
+    font-size: 17px;
+}
+
+
+.-number {
+    background-color: #fff;
+}
+
+.-number:hover {
+    background-color: #cccccc;
+    border: 1px solid #808080ea;
+}
+
+.-calc {
+    background-color: #ffffff98;
+}
+
+.-calc:hover {
+    background-color: #cccccc;
+    border: 1px solid #808080ea;
+}
+
+.-first {
+    background-color: rgb(127, 179, 219);
+}
+
+.-first:hover {
+    background-color: rgb(58, 148, 217);
+    border: 1px solid #808080ea;
+}
+
+.button-mini {
+    width: 53px;
+    height: 29px;
+}
+
+.-none {
+    background-color: #c5bebe;
+    border: transparent;
+    color: #a49f9f;
+}
+
+.-cmini {
+    background-color: #c5bebe;
+    border: transparent;
+    font-weight: bold;
+}
+
+.-cmini:hover {
+    background-color: #cccccc;
+    border: 1px solid #808080ea;
+}
