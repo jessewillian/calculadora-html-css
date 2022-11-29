@@ -18,7 +18,7 @@
     align-content: end;
     justify-content: space-between;
     width: 322px;
-    height: 517px;
+    height: 518px;
     background-color: #c5bebe;
     border: 1px solid #000;
     box-shadow: 5px 5px 30px #808080, -5px -5px 30px #808080;
@@ -33,7 +33,7 @@
 .box-calculator .number-calc {
     height: 60px;
     width: 300px;
-    font-size: 45px;
+    font-size: 30px;
     text-align: right;
     margin-bottom: 15px;
     margin-left: 2%;
